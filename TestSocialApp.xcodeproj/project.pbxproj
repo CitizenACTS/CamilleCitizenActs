@@ -24,6 +24,8 @@
 		AC463A541CD8813A003499F2 /* MaterialTextFld.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC463A531CD8813A003499F2 /* MaterialTextFld.swift */; };
 		AC463A571CD88F64003499F2 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC463A561CD88F64003499F2 /* Bolts.framework */; };
 		AC463A5A1CD89B84003499F2 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC463A591CD89B84003499F2 /* DataService.swift */; };
+		AC463A5C1CD8B686003499F2 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC463A5B1CD8B686003499F2 /* FeedVC.swift */; };
+		AC463A5E1CD8B845003499F2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC463A5D1CD8B845003499F2 /* PostCell.swift */; };
 		B347DD63C3FBF8F18C289F52 /* Pods_TestSocialApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D5E22701B2BCEEB95C5A7C /* Pods_TestSocialApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		AC463A531CD8813A003499F2 /* MaterialTextFld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextFld.swift; sourceTree = "<group>"; };
 		AC463A561CD88F64003499F2 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		AC463A591CD89B84003499F2 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		AC463A5B1CD8B686003499F2 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		AC463A5D1CD8B845003499F2 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		E5D5E22701B2BCEEB95C5A7C /* Pods_TestSocialApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSocialApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,7 +108,6 @@
 				AC463A3F1CD7EB09003499F2 /* View */,
 				AC463A3E1CD7EAFF003499F2 /* Controller */,
 				AC463A261CD7DF22003499F2 /* AppDelegate.swift */,
-				AC463A281CD7DF22003499F2 /* ViewController.swift */,
 				AC463A2A1CD7DF22003499F2 /* Main.storyboard */,
 				AC463A2D1CD7DF22003499F2 /* Assets.xcassets */,
 				AC463A2F1CD7DF22003499F2 /* LaunchScreen.storyboard */,
@@ -117,6 +120,8 @@
 		AC463A3E1CD7EAFF003499F2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				AC463A281CD7DF22003499F2 /* ViewController.swift */,
+				AC463A5B1CD8B686003499F2 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 				AC463A4A1CD7EF0E003499F2 /* MaterialView.swift */,
 				AC463A4F1CD87E8D003499F2 /* MaterialBtn.swift */,
 				AC463A531CD8813A003499F2 /* MaterialTextFld.swift */,
+				AC463A5D1CD8B845003499F2 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 				AC463A5A1CD89B84003499F2 /* DataService.swift in Sources */,
 				AC463A291CD7DF22003499F2 /* ViewController.swift in Sources */,
 				AC463A541CD8813A003499F2 /* MaterialTextFld.swift in Sources */,
+				AC463A5C1CD8B686003499F2 /* FeedVC.swift in Sources */,
+				AC463A5E1CD8B845003499F2 /* PostCell.swift in Sources */,
 				AC463A271CD7DF22003499F2 /* AppDelegate.swift in Sources */,
 				AC463A4E1CD7EF5D003499F2 /* Constants.swift in Sources */,
 				AC463A501CD87E8D003499F2 /* MaterialBtn.swift in Sources */,
